@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #fafafa;
+        }
+
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 75px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            text-align: center
+        }
+
+        .login-form h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 20px;
+            font-size: 16px;
+            color: #f1f3f6;
+            background-color: #00bfff;
+            border: none;
+            border-radius: 60px;
+            cursor: pointer
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <form method="post">
+            <h2>Login</h2>
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Login</button>
+            <h3>Don't have an account</h3>
+            <a href="register">Register here</a>
+        </form>
+    </div>
+</body>
+</html>
